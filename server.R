@@ -1,7 +1,7 @@
 library(shiny)
 require(rCharts)
 load('biz.RData')
-load("arizona.tract10.RData")
+
 load("bizframe-geocoded.RData")
 library(devtools) 
 attach(new.biz)
